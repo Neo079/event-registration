@@ -20,7 +20,7 @@ def register():
 
     print(name, email)
 
-    return "Registration Successful!"
+    return "Your Registration is Successful!"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
